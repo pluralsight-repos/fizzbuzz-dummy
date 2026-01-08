@@ -12,7 +12,7 @@ from src.fizzubuzz import fizzbuzz
     ],
 )
 def test_fizzbuzz(number, expected):
-    assert fizzbuzz(number, None) == expected
+    assert fizzbuzz(number) == expected
 
 
 @pytest.mark.parametrize(

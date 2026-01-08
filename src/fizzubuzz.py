@@ -1,4 +1,4 @@
-def fizzbuzz(n, additional_rules):
+def fizzbuzz(n, additional_rules=None):
     """
     Convert a number to it`s name in the game FizzBuzz
     """
